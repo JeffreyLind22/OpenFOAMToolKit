@@ -32,10 +32,10 @@ module load openmpi/4.1.3-gcc
 . $OPENFOAM_SH
 
 ### OpenFOAM version 2212                                                       
-#export WM_PROJECT_USER_DIR=/lustre/isaac/scratch/jlind3/
+#export WM_PROJECT_USER_DIR=/lustre/isaac/scratch/USER
 #export FOAM_RUN=$WM_PROJECT_USER_DIR/wellsTurbine
-#export FOAM_USER_APPBIN=/nfs/home/***REMOVED***/OpenFOAM/***REMOVED***-v2212/platforms/linux64GccDPInt32Opt/bin
-#export FOAM_USER_LIBBIN=/nfs/home/***REMOVED***/OpenFOAM/***REMOVED***-v2212/platforms/linux64GccDPInt32Opt/lib
+#export FOAM_USER_APPBIN=/nfs/home/USER/OpenFOAM/USER/platforms/linux64GccDPInt32Opt/bin
+#export FOAM_USER_LIBBIN=/nfs/home/USER/OpenFOAM/VERSION/platforms/linux64GccDPInt32Opt/lib
 
 ### include the user app folder so that OpenFOAM can find the solver and library
 export PATH=$PATH:$FOAM_USER_APPBIN
